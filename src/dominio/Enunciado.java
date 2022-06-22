@@ -2,11 +2,7 @@ package dominio;
 
 public class Enunciado {
 	
-	/*• La biblioteca contiene 3 tipos de libros: Historia, Geografía y Matemáticas.
-• Los libros pueden ser prestados a cualquier estudiante.
-• De los libros interesa registrar código, nombre y autor.
-• De los estudiantes interesa saber DNI, apellido y nombre.
-• Los estudiantes podrán solicitar el préstamo de hasta 2 libros simultáneamente.
+	/*
 • Los libros de Historia y Geografía deben permitir ser fotocopiables. Dicho 
 comportamiento podría ser implementado con un método que devuelve un String 
 representativo del texto del ejemplar.

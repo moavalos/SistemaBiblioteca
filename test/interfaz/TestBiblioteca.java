@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import dominio.Libro;
-import dominio.TipoDeLibro;
+import dominio.LibroMatematica;
 
 public class TestBiblioteca {
 	
@@ -22,8 +22,10 @@ public class TestBiblioteca {
 	
 	@Test
 	public void queSePuedaCrearUnLibroDeMatematica() {
-		Libro libro = new Libro(1550, "no se, no leo", "MrGuarango", TipoDeLibro.MATEMATICA);
-		assertEquals(TipoDeLibro.MATEMATICA, libro.getTipoDeLibro());
+		Integer cod = 1550;
+		Libro libroDeMatematica = new LibroMatematica(cod, "no se, no leo", "MrGuarango");
+		assertEquals(cod, libroDeMatematica.getCod());
+		
 	}
 	
 
